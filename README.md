@@ -18,7 +18,7 @@ Certainly! Below is a sample `README.md` file tailored for presenting the `Logge
 You can simply copy the `LoggerUtility` class into your project, or if you have it packaged, you can install it via `pip` (assuming you have it available on PyPI):
 
 ```bash
-pip install LoggerUtility
+pip install cd-logging
 ```
 
 ## Usage
