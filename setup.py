@@ -15,6 +15,7 @@ setup(
 url='https://codedocta.com',
     packages=find_packages(),
     classifiers=[
+        'Development Status :: 4 - Beta',
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
