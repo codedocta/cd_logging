@@ -1,6 +1,3 @@
-Certainly! Below is a sample `README.md` file tailored for presenting the `LoggerUtility` class on GitHub and PyPI:
-
-```markdown
 # LoggerUtility
 
 `LoggerUtility` is a Python class that simplifies logging setup across your Python applications. It provides a streamlined way to configure loggers with custom formats, different logging levels, and optional file output. Whether you're debugging during development or monitoring in production, `LoggerUtility` can help you keep clear and concise logs.
@@ -20,13 +17,18 @@ You can simply copy the `LoggerUtility` class into your project, or if you have 
 ```bash
 pip install cd-logging
 ```
+## Update
+
+```bash
+pip install -U cd-logging
+```
 
 ## Usage
 
 Here is a quick example of how to use `LoggerUtility`:
 
 ```python
-from logger_utility import LoggerUtility
+from cd_logging.cd_logging import LoggerUtility
 
 # Initialize the logger
 logger_util = LoggerUtility(__name__, level=logging.INFO)

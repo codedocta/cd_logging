@@ -1,0 +1,20 @@
+[tool.setuptools]
+name = "cd_logging"
+version = "0.0.5"  # You'll need to specify the actual version here
+author = "Code Docta"
+author_email = "codedocta@gmail.com"
+description = "A simple logging utility for Python applications"
+long_description = "file: README.md"
+long_description_content_type = "text/markdown"
+url = "https://codedocta.com"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+python_requires = ">=3.6"
+
+[tool.setuptools.project_urls]
+Bug Reports = "https://github.com/codedocta/cd_logging/issues"
+Source = "https://github.com/codedocta/cd_logging/"
